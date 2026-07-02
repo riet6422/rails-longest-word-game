@@ -8,3 +8,23 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+  .container {
+    display:flex;
+  }
+
+  .container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(72, 127, 214);
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+
+  
